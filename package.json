@@ -1,0 +1,36 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Backend project Distribution",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "concat-stream": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "monk": "^6.0.6",
+    "mssql": "^5.1.0",
+    "openpgp": "^4.6.2",
+    "openssl-nodejs": "^1.0.5",
+    "pidusage": "^3.0.0",
+    "socket.io": "^2.2.0",
+    "socketio-jwt": "^4.6.2",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
